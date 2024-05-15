@@ -24,7 +24,7 @@ while Stop
     r.Settime(t);
     r.estados;
     r.grafica;
-    h=(1023-analogRead(a,0))*(100/1023);
+    h=(analogRead(a,0))*(100/1023);
     t=toc;
     k=k+1;
 end
